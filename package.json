@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/jakgajtk/moviedb-react/issues"
   },
-  "homepage": "https://github.com/jakgajtk/moviedb-react#readme"
+  "homepage": "https://github.com/jakgajtk/moviedb-react#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.4.1"
+  }
 }
