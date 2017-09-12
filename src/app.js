@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Search from './components/search';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import NavBar from './components/navbar/navbar';
 
-document.addEventListener('DOMContentLoaded', function() {
+const App = () => (
+  <MuiThemeProvider>
+    <NavBar />
+  </MuiThemeProvider>
+);
+
+document.addEventListener("DOMContentLoaded", function(event) {
     ReactDOM.render(
-        React.createElement(Search),
-        document.getElementById('app')
+    <App />,
+    document.getElementById('app')
     );
 });
